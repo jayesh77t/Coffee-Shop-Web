@@ -1,73 +1,161 @@
-# React + TypeScript + Vite
+# ☕ Flavored
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A cinematic coffee shop landing page built with React + Vite.
 
-Currently, two official plugins are available:
+Flavored delivers a premium café-inspired experience using glassmorphism UI, smooth scrolling, cinematic animations, and warm editorial aesthetics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌫 Blurred café bokeh background
+- 🪟 Frosted glassmorphism UI
+- 🎞 GSAP cinematic scroll animations
+- ⚡ Smooth Lenis scrolling
+- ☕ Floating coffee compositions
+- 🖱 Interactive custom cursor
+- 📱 Handcrafted mobile app mockups
+- 🎨 Editorial typography layouts
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Technology | Purpose |
+|------------|---------|
+| React + Vite | Frontend Framework |
+| Tailwind CSS | Styling |
+| Framer Motion | UI Animations |
+| GSAP + ScrollTrigger | Scroll Animations |
+| Lenis | Smooth Scrolling |
+| Lucide React | Icons |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📸 Website Sections
+
+### Hero Section
+- Floating latte-art coffee composition
+- Cinematic text reveal animations
+- Interactive category icons
+- Premium CTA button
+
+### Product Showcase
+- Frosted coffee product cards
+- Hover lift interactions
+- Floating pricing badges
+
+### Feature Section
+- GSAP coffee bean explosion animation
+- Scroll-linked cinematic motion
+
+### App Showcase
+- Handcrafted glassmorphism phone mockups
+- CSS-based mobile UI recreation
+
+### CTA Banner
+- Animated reservation section
+- Clip-path reveal transitions
+
+### Footer
+- Editorial multi-column layout
+- Staggered reveal animations
+
+---
+
+## ⚙ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/jayesh77t/Coffee-Shop-Web.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd Coffee-Shop-Web
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+src
+├── assets
+├── components
+├── sections
+├── hooks
+├── animations
+├── styles
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🎞 Animation System
+
+| Element | Animation |
+|---|---|
+| Hero Heading | Slide In |
+| Coffee Cup | Float + Rotate |
+| Product Cards | Fade Up |
+| Coffee Beans | GSAP Explosion |
+| Buttons | Fill Animation |
+| Footer Columns | Stagger Reveal |
+
+---
+
+## 📱 Responsive Design
+
+Optimized for:
+
+- Desktop
+- Tablet
+- Mobile Devices
+
+---
+
+## ⚡ Performance
+
+- GPU accelerated transforms
+- Optimized GSAP timelines
+- Smooth hardware-accelerated motion
+- Lightweight SVG icon system
+
+---
+
+## 🔮 Future Improvements
+
+- Dark Mode
+- Three.js Coffee Particles
+- Reservation Backend
+- AI Coffee Recommendations
+- Full eCommerce Integration
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ☕ Experience Goal
+
+Flavored is designed to feel warm, cinematic, calm, and premium — transforming a coffee shop website into an immersive editorial experience through motion, blur, typography, and interaction design.
