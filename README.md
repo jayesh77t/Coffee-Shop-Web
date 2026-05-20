@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="[./public/images/preview.png](https://coffee-shop-web-ten.vercel.app/)">
+<a href="https://coffee-shop-web.vercel.app">
   <img src="./public/images/preview.png" alt="Flavored Demo"/>
 </a>
 
