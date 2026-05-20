@@ -1,3 +1,11 @@
+<div align="center">
+
+<a href="[./public/images/preview.png](https://coffee-shop-web-ten.vercel.app/)">
+  <img src="./public/images/preview.png" alt="Flavored Demo"/>
+</a>
+
+</div>
+
 # ☕ Flavored
 
 > A cinematic coffee shop landing page built with React + Vite.
